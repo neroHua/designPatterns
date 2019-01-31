@@ -1,6 +1,6 @@
 package chapter02;
 
-public class CarFactory {
+public class SimpleCarFactory {
 
     public static BaseCar getCar1(String carType) throws ClassNotFoundException {
         if(CarType.CAR_001.equals(carType)) {
