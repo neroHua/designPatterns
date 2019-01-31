@@ -1,2 +1,2 @@
-# javaDesignModel
-用来学习java设计模式
+# designPatterns
+用来学习设计模式
