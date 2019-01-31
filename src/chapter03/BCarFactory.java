@@ -5,9 +5,9 @@ import chapter03.BaseCar;
 public class BCarFactory extends CarFactory {
 
     @Override
-    public BaseCar createCar1(String carType) throws InstantiationException, IllegalAccessException, ClassNotFoundException {
+    public BBaseCar createCar1(String carType) throws InstantiationException, IllegalAccessException, ClassNotFoundException {
         final String PACKAGE_PATH = "chapter03.";
-        return (BaseCar)Class.forName(PACKAGE_PATH + carType).newInstance();
+        return (BBaseCar)Class.forName(PACKAGE_PATH + carType).newInstance();
     }
 
     @Override
