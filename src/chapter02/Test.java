@@ -1,5 +1,15 @@
 package chapter02;
 
+/**
+ * 
+ * 简单工厂模式
+ * 
+ * 倘若car分类，则需要修改工厂，违反开闭原则
+ * 
+ * @author 滑德友
+ * @time 2019年1月31日16:55:56
+ *
+ */
 public class Test {
 
     public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {

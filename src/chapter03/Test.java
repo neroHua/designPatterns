@@ -1,5 +1,15 @@
 package chapter03;
 
+/**
+ * 
+ * 工厂模式
+ * 
+ * 当新增加C公司汽车，则增加CBaseCar，CCar001，CCar002，CCar003，和 CCarFactory，不用修改原来的类
+ * 
+ * @author 滑德友
+ * @time 2019年1月31日17:24:19
+ *
+ */
 public class Test {
 
     public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException {

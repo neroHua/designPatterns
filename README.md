@@ -1,2 +1,2 @@
 # designPatterns
-用来学习设计模式
+自学设计模式
