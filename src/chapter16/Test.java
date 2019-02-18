@@ -1,5 +1,8 @@
 package chapter16;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * 
  * 责任链模式
@@ -12,7 +15,12 @@ package chapter16;
 public class Test {
 
     public static void main(String[] args) {
-        LoggerChain loggerChain = new LoggerChain();
+        List<AbstractLogger> loggerList = new ArrayList<>();
+        loggerList.add(new ErrorLogger());
+        loggerList.add(new InfoLogger());
+        loggerList.add(new DebugLogger());
+
+        LoggerChain loggerChain = new LoggerChain(loggerList);
 
         loggerChain.logMessage(1, "我是小明");
         loggerChain.logMessage(3, "我是大明");
