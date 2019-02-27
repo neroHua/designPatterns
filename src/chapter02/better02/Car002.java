@@ -1,4 +1,4 @@
-package chapter02;
+package chapter02.better02;
 
 public final class Car002 extends BaseCar implements Runable {
 

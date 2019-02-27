@@ -1,4 +1,4 @@
-package chapter02;
+package chapter02.better01;
 
 public abstract class BaseCar {
 
