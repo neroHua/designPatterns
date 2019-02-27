@@ -1,2 +1,4 @@
 # designPatterns
-自学设计模式
+
+# chapter01
+    设计模式简介
