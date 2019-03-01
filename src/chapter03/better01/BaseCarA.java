@@ -1,6 +1,6 @@
-package chapter03;
+package chapter03.better01;
 
-public class ABaseCar extends BaseCar {
+public class BaseCarA extends BaseCar {
 
     public void showMyCompany() {
         System.out.println("我的公司是A");

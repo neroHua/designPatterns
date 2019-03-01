@@ -1,4 +1,4 @@
-package chapter03;
+package chapter03.better02;
 
 public interface Runable {
     

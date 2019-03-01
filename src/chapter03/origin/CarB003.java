@@ -1,6 +1,6 @@
-package chapter03;
+package chapter03.origin;
 
-public final class BCar003 extends BBaseCar implements Runable {
+public final class CarB003 extends BaseCarB implements Runable {
 
     @Override
     public void run() {
