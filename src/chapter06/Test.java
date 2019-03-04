@@ -2,7 +2,7 @@ package chapter06;
 
 /**
  * 
- * 建造者模式
+ * 建造者模式(Builder)
  * 建造某个复杂的对象
  * 
  * @author 滑德友

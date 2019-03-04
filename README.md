@@ -11,3 +11,9 @@
 
 # chapter04
     abstractFactory 抽象工厂模式
+
+# chapter05
+    singleton 单例模式
+
+# chapter06
+    builder 建造者模式
