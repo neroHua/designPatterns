@@ -1,7 +1,7 @@
 package chapter03.better02;
 
-public abstract class CarFactoryMethod {
+public interface CarFactoryMethod {
 
-    public abstract <T extends BaseCar> T createCar(Class<T> className) throws InstantiationException, IllegalAccessException;
+    public <T extends BaseCar> T createCar(Class<T> className) throws InstantiationException, IllegalAccessException;
     
 }

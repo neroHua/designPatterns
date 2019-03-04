@@ -1,6 +1,6 @@
 package chapter03.better01;
 
-public class CarFactoryMethodA extends CarFactoryMethod {
+public class CarFactoryMethodA implements CarFactoryMethod {
 
     @Override
     public BaseCarA createCar(String carType) throws InstantiationException, IllegalAccessException, ClassNotFoundException {
