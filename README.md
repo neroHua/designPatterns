@@ -4,7 +4,10 @@
     设计模式简介
 
 # chapter02
-    简单工厂模式
+    simpleFacotry 简单工厂模式
 
-# chapter02
-    工厂方法模式
+# chapter03
+    factoryMethod 工厂方法模式
+
+# chapter04
+    abstractFactory 抽象工厂模式
