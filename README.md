@@ -23,3 +23,6 @@
 
 # chapter08
     adapter 适配器模式
+
+# chapter09
+    bridge 桥接模式
