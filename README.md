@@ -17,3 +17,6 @@
 
 # chapter06
     builder 建造者模式
+
+# chapter07
+    prototype 建造者模式

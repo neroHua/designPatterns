@@ -29,7 +29,6 @@ public class DeepClone implements Cloneable {
     @Override
     protected Object clone() throws CloneNotSupportedException {
         DeepClone deepCloned= (DeepClone)super.clone();
-        // 偷赖未克隆：name
         // 克隆引用类型:user
         DeepCloneUser deepCloneUser = deepCloned.getUser();
         DeepCloneUser deepClonedUser = (DeepCloneUser)deepCloneUser.clone();

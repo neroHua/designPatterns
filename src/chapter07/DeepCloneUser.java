@@ -20,7 +20,6 @@ public class DeepCloneUser implements Cloneable {
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        // 偷赖未克隆：name
         return super.clone();
     }
     

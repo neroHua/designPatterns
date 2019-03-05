@@ -2,7 +2,7 @@ package chapter07;
 
 /**
  * 
- * 原型模式
+ * 原型模式(prototype)
  * 用于克隆对象, 相对于创建对象的开销小很多很多
  * 浅克隆：复制对象内的基本类型复制值,引用类型复制地址;复制对象
  * 深克隆：复制对象内的基本类型复制值,引用类型复制值;复制对象,并递归复制对象内的对象
@@ -11,7 +11,7 @@ package chapter07;
  * @time 2019年2月1日14:39:05
  *
  */
-public class Test {
+public class Client {
 
     public static void main(String[] args) throws CloneNotSupportedException {
         ShallowCloneUser shallowCloneUser = new ShallowCloneUser();
@@ -49,7 +49,6 @@ public class Test {
         System.out.println("cloneUser: \t" + (deepCloneUser == deepClonedUser));
         System.out.println("cloneUserId: \t" + (deepCloneUser.getId() == deepClonedUser.getId()));
         System.out.println("cloneUserName: \t" + (deepCloneUser.getName() == deepClonedUser.getName()));
-
     }
 
 }

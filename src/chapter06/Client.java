@@ -9,7 +9,7 @@ package chapter06;
  * @time 2019年2月1日10:48:17
  *
  */
-public class Test {
+public class Client {
 
     public static void main(String[] args) {
         A a = new ABuilder().builder()
