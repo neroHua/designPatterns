@@ -19,4 +19,7 @@
     builder 建造者模式
 
 # chapter07
-    prototype 建造者模式
+    prototype 原型模式
+
+# chapter08
+    adapter 适配器模式
