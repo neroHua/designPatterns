@@ -5,14 +5,14 @@ import java.util.List;
 
 /**
  * 
- * 责任链模式
+ * 责任链模式(chain of responsibility)
  * 对某个对象进行连续的处理，过程中对象可以改变
  * 
  * @author 滑德友
  * @time 2019年2月18日19:11:05
  *
  */
-public class Test {
+public class Client {
 
     public static void main(String[] args) {
         List<AbstractLogger> loggerList = new ArrayList<>();

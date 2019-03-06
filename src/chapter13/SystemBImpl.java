@@ -1,6 +1,6 @@
 package chapter13;
 
-public class SystemB1 implements SystemB {
+public class SystemBImpl implements SystemB {
 
     @Override
     public void start() {

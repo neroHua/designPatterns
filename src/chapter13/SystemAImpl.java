@@ -1,6 +1,6 @@
 package chapter13;
 
-public class SystemA1 implements SystemA {
+public class SystemAImpl implements SystemA {
 
     @Override
     public void start() {

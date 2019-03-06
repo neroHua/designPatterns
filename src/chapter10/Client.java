@@ -5,14 +5,14 @@ import java.util.List;
 
 /**
  * 
- * 过滤器模式
- * 在mongodb的api中经常能看到该模式的影子
+ * 过滤器模式(filter/criteria)
+ * 对一系列对象的进行过滤，保留符合条件的对象
  * 
  * @author 滑德友 
  * @time 2019年2月11日13:21:01
  *
  */
-public class Test {
+public class Client {
 
     public static void main(String[] args) {
         List<Person> personList = new ArrayList<>();

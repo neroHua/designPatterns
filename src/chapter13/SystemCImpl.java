@@ -1,6 +1,6 @@
 package chapter13;
 
-public class SystemC1 implements SystemC {
+public class SystemCImpl implements SystemC {
 
     @Override
     public void start() {

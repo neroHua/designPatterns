@@ -1,12 +1,12 @@
 package chapter13;
 
-public class SystemFacade1 implements SystemFacade {
+public class SystemFacadeImpl implements SystemFacade {
 
     SystemA systemA;
     SystemB systemB;
     SystemC systemC; 
     
-    public SystemFacade1(SystemA systemA, SystemB systemB, SystemC systemC) {
+    public SystemFacadeImpl(SystemA systemA, SystemB systemB, SystemC systemC) {
         this.systemA = systemA;
         this.systemB = systemB;
         this.systemC = systemC;

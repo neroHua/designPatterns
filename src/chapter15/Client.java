@@ -4,7 +4,7 @@ import java.lang.reflect.Proxy;
 
 /**
  * 
- * 代理模式
+ * 代理模式(proxy)
  * 静态代理和动态代理，AOP编程
  * 
  * 
@@ -12,7 +12,7 @@ import java.lang.reflect.Proxy;
  * @time 2019年2月15日12:47:13
  *
  */
-public class Test {
+public class Client {
 
     public static void main(String[] args) {
         
