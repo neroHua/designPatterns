@@ -2,14 +2,14 @@ package chapter25;
 
 /**
  * 
- * 策略模式
+ * 策略模式(strategy)
  * 当选择比较多时，直接在将选择包装成各个类
  * 
  * @author 滑德友
  * @time 2019年2月22日13:23:26
  *
  */
-public class Test {
+public class Client {
 
     public static void main(String[] args) {
         int number1 = 5;

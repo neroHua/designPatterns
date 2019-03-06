@@ -49,34 +49,37 @@
     chain of responsibility 责任链模式
 
 # chapter17
-    decorator 装饰模式
+    command 命令模式
 
 # chapter18
-    decorator 装饰模式
+    interpreter 解释器模式(未实现)
 
 # chapter19
-    decorator 装饰模式
+    iterator 迭代器模式
 
 # chapter20
-    decorator 装饰模式
+    mediator 中介者模式
 
 # chapter21
-    decorator 装饰模式
+    memento 备忘录模式
+
+# chapter22
+    observer 观察者模式
 
 # chapter23
-    decorator 装饰模式
+    state 状态模式
 
 # chapter24
-    decorator 装饰模式
+    null object 空对象模式
 
 # chapter25
-    decorator 装饰模式
+    strategy 策略模式
 
 # chapter26
-    decorator 装饰模式
+    template 模板模式
 
 # chapter27
-    decorator 装饰模式
+    visitor 访问者模式
 
 # chapter28
-    decorator 装饰模式
+    generic 泛型模式

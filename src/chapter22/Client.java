@@ -5,14 +5,14 @@ import java.util.List;
 
 /**
  * 
- * 观察者模式
+ * 观察者模式(observer)
  * 被观测者，状态改变时，观察者接到通知
  * 
  * @author 滑德友
  * @time 2019年2月22日11:21:09
  *
  */
-public class Test {
+public class Client {
 
     public static void main(String[] args) {
         List<Observer> observerList = new ArrayList<>();

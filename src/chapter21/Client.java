@@ -2,14 +2,14 @@ package chapter21;
 
 /**
  * 
- * 备忘录模式 
+ * 备忘录模式(memento) 
  * 存储数据的状态，需要时取出
  * 
  * @author 滑德友
  * @time 2019年2月21日19:40:13
  *
  */
-public class Test {
+public class Client {
 
     public static void main(String[] args) {
         Originator originator = new Originator();

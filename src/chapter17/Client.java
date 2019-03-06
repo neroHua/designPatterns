@@ -5,14 +5,14 @@ import java.util.List;
 
 /**
  * 
- * 命令模式
+ * 命令模式(command)
  * 感觉上只是指令调用者跟指令接收者解耦了，指令接收者和跟指令还是紧耦合的
  * 
  * @author 滑德友
  * @time 2019年2月r8日19:19:20
  *
  */
-public class Test {
+public class Client {
 
     public static void main(String[] args) {
 

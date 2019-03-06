@@ -5,14 +5,14 @@ import java.util.List;
 
 /**
  * 
- * 中介者模式
+ * 中介者模式(mediator)
  * 可以对象间的调用关系网变得简单
  * 
  * @author 滑德友
  * @time 2019年2月21日17:41:21
  *
  */
-public class Test {
+public class Client {
 
     public static void main(String[] args) {
         MarriageMediator marriageMediator = new MarriageMediatorImpl(); 
