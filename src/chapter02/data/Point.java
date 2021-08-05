@@ -1,4 +1,7 @@
 package chapter02.data;
 
-public interface Point {
+public class Point {
+    boolean intersects(Character character) {
+        return true;
+    }
 }
