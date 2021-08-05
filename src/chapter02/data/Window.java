@@ -9,4 +9,8 @@ public class Window {
     public void drawRectangle(Rectangle rectangle) {
 
     }
+
+    public void drawPolygon(Polygon polygon) {
+
+    }
 }
