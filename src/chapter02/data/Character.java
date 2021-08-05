@@ -15,8 +15,7 @@ public class Character implements Glyph {
 
     @Override
     public boolean intersects(Point point) {
-        return point.intersects(this);
-
+        return true;
     }
 
     @Override
