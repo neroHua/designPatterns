@@ -1,5 +1,7 @@
 package chapter02.data;
 
+import chapter02.format.Format;
+
 import java.util.List;
 
 public class Row implements Glyph {
@@ -8,12 +10,12 @@ public class Row implements Glyph {
 
     private List<Glyph> children;
 
-    public Row() {
-    }
+    private Format format;
 
-    public Row(Glyph parent, List<Glyph> children) {
+    public Row(Glyph parent, List<Glyph> children, Format format) {
         this.parent = parent;
         this.children = children;
+        this.format = format;
     }
 
     @Override
@@ -37,6 +39,7 @@ public class Row implements Glyph {
     @Override
     public void insert(Glyph glyph, int index) {
         children.set(index, glyph);
+        format.format();
     }
 
     @Override
