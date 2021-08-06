@@ -1,6 +1,14 @@
 package chapter02.data;
 
+import chapter02.format.Format;
+
 public class Polygon implements Glyph {
+
+    private Format format;
+
+    public Polygon(Format format) {
+        this.format = format;
+    }
 
     @Override
     public void draw(Window window) {
@@ -14,7 +22,7 @@ public class Polygon implements Glyph {
 
     @Override
     public void insert(Glyph glyph, int index) {
-
+        format.format();
     }
 
     @Override
