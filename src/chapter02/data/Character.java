@@ -23,4 +23,19 @@ public class Character implements Glyph {
 
     }
 
+    @Override
+    public void remove(Glyph glyph) {
+
+    }
+
+    @Override
+    public Glyph child(int index) {
+        return null;
+    }
+
+    @Override
+    public Glyph parent() {
+        return null;
+    }
+
 }
