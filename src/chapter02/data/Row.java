@@ -29,7 +29,7 @@ public class Row implements Glyph {
     }
 
     @Override
-    public void insert(Glyph glyph, int type) {
+    public void insert(Glyph glyph, int index) {
 
     }
 
