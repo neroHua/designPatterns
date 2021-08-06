@@ -1,25 +1,47 @@
 package chapter02.data;
 
-public class Rectangle implements Glyph {
+import java.util.List;
+
+public class Row implements Glyph {
+
+    private Glyph parent;
+
+    private List<Glyph> children;
+
+    public Row() {
+    }
+
+    public Row(Glyph parent, List<Glyph> children) {
+        this.parent = parent;
+        this.children = children;
+    }
 
     @Override
     public void draw(Window window) {
-        window.drawRectangle(this);
+        for (Glyph glyph : children) {
+            glyph.draw(window);
+        }
     }
 
     @Override
     public boolean intersects(Point point) {
-        return false;
+        for (Glyph glyph : children) {
+            if (glyph.intersects(point)) {
+                return false;
+            }
+        }
+
+        return true;
     }
 
     @Override
     public void insert(Glyph glyph, int index) {
-
+        children.set(index, glyph);
     }
 
     @Override
     public void remove(Glyph glyph) {
-
+        children.remove(glyph);
     }
 
     @Override
@@ -30,6 +52,22 @@ public class Rectangle implements Glyph {
     @Override
     public Glyph parent() {
         return null;
+    }
+
+    public Glyph getParent() {
+        return parent;
+    }
+
+    public void setParent(Glyph parent) {
+        this.parent = parent;
+    }
+
+    public List<Glyph> getChildren() {
+        return children;
+    }
+
+    public void setChildren(List<Glyph> children) {
+        this.children = children;
     }
 
 }
