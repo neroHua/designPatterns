@@ -1,11 +1,16 @@
 package chapter02.data;
 
+import chapter02.format.Format;
+
 public class Character implements Glyph {
 
     private char character;
 
-    public Character(char character) {
+    private Format format;
+
+    public Character(char character, Format format) {
         this.character = character;
+        this.format = format;
     }
 
     @Override
@@ -20,7 +25,7 @@ public class Character implements Glyph {
 
     @Override
     public void insert(Glyph glyph, int index) {
-
+        format.format();
     }
 
     @Override
