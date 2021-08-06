@@ -6,6 +6,6 @@ public interface Glyph {
 
     boolean intersects(Point point);
 
-    void insert(Glyph glyph, int type);
+    void insert(Glyph glyph, int index);
 
 }
