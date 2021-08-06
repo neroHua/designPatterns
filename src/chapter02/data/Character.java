@@ -19,7 +19,7 @@ public class Character implements Glyph {
     }
 
     @Override
-    public void insert(Glyph glyph, int type) {
+    public void insert(Glyph glyph, int index) {
 
     }
 
