@@ -4,9 +4,15 @@ import java.util.List;
 
 public class Row implements Glyph {
 
+    private Glyph parent;
+
     private List<Glyph> children;
 
-    public Row(List<Glyph> children) {
+    public Row() {
+    }
+
+    public Row(Glyph parent, List<Glyph> children) {
+        this.parent = parent;
         this.children = children;
     }
 
@@ -30,7 +36,30 @@ public class Row implements Glyph {
 
     @Override
     public void insert(Glyph glyph, int index) {
+        children.set(index, glyph);
+    }
 
+    @Override
+    public void remove(Glyph glyph) {
+        children.remove(glyph);
+    }
+
+    @Override
+    public Glyph child(int index) {
+        return null;
+    }
+
+    @Override
+    public Glyph parent() {
+        return null;
+    }
+
+    public Glyph getParent() {
+        return parent;
+    }
+
+    public void setParent(Glyph parent) {
+        this.parent = parent;
     }
 
     public List<Glyph> getChildren() {
@@ -40,4 +69,5 @@ public class Row implements Glyph {
     public void setChildren(List<Glyph> children) {
         this.children = children;
     }
+
 }
