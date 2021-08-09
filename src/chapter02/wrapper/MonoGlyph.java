@@ -1,7 +1,7 @@
 package chapter02.wrapper;
 
 import chapter02.data.Glyph;
-import chapter02.data.Window;
+import chapter02.os.Window;
 
 public abstract class MonoGlyph implements Glyph {
 

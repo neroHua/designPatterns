@@ -1,5 +1,7 @@
 package chapter02.data;
 
+import chapter02.os.Window;
+
 public interface Glyph {
 
     void draw(Window window);

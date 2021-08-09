@@ -1,4 +1,8 @@
-package chapter02.data;
+package chapter02.os;
+
+import chapter02.data.Character;
+import chapter02.data.Polygon;
+import chapter02.data.Rectangle;
 
 public class Window {
 

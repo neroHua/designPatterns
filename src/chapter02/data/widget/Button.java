@@ -2,7 +2,7 @@ package chapter02.data.widget;
 
 import chapter02.data.Glyph;
 import chapter02.data.Point;
-import chapter02.data.Window;
+import chapter02.os.Window;
 
 public abstract class Button implements Glyph {
 

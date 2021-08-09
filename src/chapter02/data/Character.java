@@ -1,6 +1,7 @@
 package chapter02.data;
 
 import chapter02.format.Format;
+import chapter02.os.Window;
 
 public class Character implements Glyph {
 
