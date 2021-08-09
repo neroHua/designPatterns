@@ -4,7 +4,7 @@ import chapter02.data.Character;
 import chapter02.data.Polygon;
 import chapter02.data.Rectangle;
 
-public class IconWindow implements Window {
+public class IconWindow extends Window {
 
     @Override
     public void drawCharacter(Character character) {
