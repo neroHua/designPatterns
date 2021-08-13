@@ -20,4 +20,7 @@ public interface Glyph {
     // todo add iterator method
 //    Iterator createIterator();
 
+    // todo add accept method
+//    void accept();
+
 }
