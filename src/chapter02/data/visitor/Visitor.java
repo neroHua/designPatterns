@@ -7,8 +7,6 @@ public interface Visitor {
 
     void visitCharacter(Character character);
 
-    void visitPoint(Point point);
-
     void visitPolygon(Polygon polygon);
 
     void visitRectangle(Rectangle rectangle);

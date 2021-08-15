@@ -1,6 +1,7 @@
 package chapter02.data;
 
 import chapter02.data.iterator.Iterator;
+import chapter02.data.visitor.Visitor;
 import chapter02.os.Window;
 
 public interface Glyph {
@@ -17,10 +18,8 @@ public interface Glyph {
 
     Glyph parent();
 
-    // todo add iterator method
-//    Iterator createIterator();
+    Iterator createIterator();
 
-    // todo add accept method
-//    void accept();
+    void accept(Visitor visitor);
 
 }

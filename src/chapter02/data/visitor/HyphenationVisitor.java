@@ -11,11 +11,6 @@ public class HyphenationVisitor implements Visitor {
     }
 
     @Override
-    public void visitPoint(Point point) {
-
-    }
-
-    @Override
     public void visitPolygon(Polygon polygon) {
 
     }

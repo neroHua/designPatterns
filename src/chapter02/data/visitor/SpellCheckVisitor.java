@@ -11,11 +11,6 @@ public class SpellCheckVisitor implements Visitor {
     }
 
     @Override
-    public void visitPoint(Point point) {
-
-    }
-
-    @Override
     public void visitPolygon(Polygon polygon) {
 
     }

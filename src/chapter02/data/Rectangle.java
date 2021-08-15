@@ -1,5 +1,8 @@
 package chapter02.data;
 
+import chapter02.data.iterator.Iterator;
+import chapter02.data.iterator.ListIterator;
+import chapter02.data.visitor.Visitor;
 import chapter02.format.Format;
 import chapter02.os.Window;
 
@@ -43,6 +46,16 @@ public class Rectangle implements Glyph {
     @Override
     public Glyph parent() {
         return null;
+    }
+
+    @Override
+    public Iterator createIterator() {
+        return new ListIterator();
+    }
+
+    @Override
+    public void accept(Visitor visitor) {
+        visitor.visitRectangle(this);
     }
 
     public Point getPoint1() {

@@ -1,5 +1,8 @@
 package chapter02.data;
 
+import chapter02.data.iterator.ArrayIterator;
+import chapter02.data.iterator.Iterator;
+import chapter02.data.visitor.Visitor;
 import chapter02.format.Format;
 import chapter02.os.Window;
 
@@ -56,6 +59,16 @@ public class Row implements Glyph {
     @Override
     public Glyph parent() {
         return null;
+    }
+
+    @Override
+    public Iterator createIterator() {
+        return new ArrayIterator();
+    }
+
+    @Override
+    public void accept(Visitor visitor) {
+        visitor.visitRow(this);
     }
 
     public Glyph getParent() {
