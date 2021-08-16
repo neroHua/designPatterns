@@ -1,11 +1,14 @@
 # designPatterns
-self learning Design Patterns Elements of Reusable Object-Oriented Software--自学设计模式
+    self learning Design Patterns Elements of Reusable Object-Oriented Software
+    自学设计模式
 
 # chapter01
-    introduction 设计模式简介
+    introduction
+    设计模式简介
 
 # chapter02
-    simpleFacotry 简单工厂模式
+    a case study: design a document editor
+    一个学习的例子：设计一个文档编辑器
 
 # chapter03
     factoryMethod 工厂方法模式
