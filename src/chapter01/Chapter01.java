@@ -32,9 +32,9 @@ package chapter01;
  *          用形象的图表来解释设计模式。不限于使用 建模技术Object Modeling Technique 和 交互图interaction diagrams。
  *
  *      1.2.5 Consequences
- *      1.2.5 潜在危害
+ *      1.2.5 特点
  *
- *          描述设计模式的局限性，已及不当使用的严重后果
+ *          描述设计模式的局限性和有点和特点
  *
  * 1.3 How Design Patterns Solve Design Problems
  * 1.3 设计模式如何解决问题
