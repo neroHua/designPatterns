@@ -11,7 +11,23 @@
     一个学习的例子：设计一个文档编辑器
 
 # chapter03
-    factoryMethod 工厂方法模式
+    create pattern
+    创建模式
+
+    1.abstract factory
+    1.抽象工厂
+
+    2.builder
+    2.建造者
+
+    3.factory method
+    3.工厂方法
+
+    4.prototype
+    4.原形模式
+
+    5.singleton
+    5.单例模式
 
 # chapter04
     abstractFactory 抽象工厂模式
