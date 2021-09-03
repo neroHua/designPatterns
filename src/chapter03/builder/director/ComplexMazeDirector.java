@@ -1,4 +1,4 @@
-  package chapter03.builder.director;
+package chapter03.builder.director;
 
 import chapter03.builder.builder.MazeBuilder;
 
