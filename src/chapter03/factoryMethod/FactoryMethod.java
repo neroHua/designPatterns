@@ -38,7 +38,7 @@ package chapter03.factoryMethod;
  *
  *      creator provide implement the factory method to create a default product
  *      创建类的工厂方法默认创建一个默认的产品
- *      parameteried factory method
+ *      parameterized factory method
  *      工厂方法带有参数
  *      use templates with generic to avoid subclassing
  *      使用带有泛型的模板来避免继承
