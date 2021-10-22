@@ -15,7 +15,7 @@ public class User implements Prototype {
     }
 
     public User(User user) {
-        this.age = age;
+        this.age = user.age;
         this.name = new String(user.name);
     }
 
