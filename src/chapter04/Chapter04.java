@@ -15,6 +15,9 @@ package chapter04;
  *
  * facade
  * 外观模式
+ * 
+ * flyweight
+ * 享元模式
  *
  * proxy
  * 代理模式
