@@ -30,7 +30,29 @@
     5.单例模式
 
 # chapter04
-    abstractFactory 抽象工厂模式
+    structural pattern
+    结构模式
+
+    1.adapter
+    1.适配器模式
+
+    2.bridge
+    2.桥接模式
+
+    3.composite
+    3.组合模式
+
+    4.decorator
+    4.装饰器模式
+
+    5.facade
+    5.外观模式
+
+    6.flyweight
+    6.享元模式
+
+    7.proxy
+    7.代理模式
 
 # chapter05
     singleton 单例模式
