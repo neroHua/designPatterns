@@ -26,5 +26,5 @@ package chapter03;
  * abstract factory, builder, prototype
  *
  */
-public class chapter03 {
+public class Chapter03 {
 }
