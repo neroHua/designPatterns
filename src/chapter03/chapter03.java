@@ -19,6 +19,12 @@ package chapter03;
  * singleton
  * 单例模式
  *
+ * there is tow way to parameterize a system:
+ *
+ * factory method
+ *
+ * abstract factory, builder, prototype
+ *
  */
 public class chapter03 {
 }
