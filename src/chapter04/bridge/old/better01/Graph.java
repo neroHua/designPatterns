@@ -1,4 +1,4 @@
-package chapter09.better02;
+package chapter04.bridge.old.better01;
 
 public interface Graph {
     

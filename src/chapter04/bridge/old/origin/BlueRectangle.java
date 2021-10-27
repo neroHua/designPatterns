@@ -1,4 +1,4 @@
-package chapter09.origin;
+package chapter04.bridge.old.origin;
 
 public class BlueRectangle implements Graph {
 

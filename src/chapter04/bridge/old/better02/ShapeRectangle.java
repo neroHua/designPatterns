@@ -1,6 +1,6 @@
-package chapter09.better02;
+package chapter04.bridge.old.better02;
 
-public class ShapeCircle implements Shape {
+public class ShapeRectangle implements Shape {
 
     @Override
     public void show() {

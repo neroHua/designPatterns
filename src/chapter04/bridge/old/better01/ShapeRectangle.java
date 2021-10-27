@@ -1,8 +1,8 @@
-package chapter09.better01;
+package chapter04.bridge.old.better01;
 
-public class ShapeCircle extends AbstractShape {
-    
-    public ShapeCircle(Color color) {
+public class ShapeRectangle extends AbstractShape {
+
+    public ShapeRectangle(Color color) {
         super(color);
     }
 

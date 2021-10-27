@@ -1,4 +1,4 @@
-package chapter09.better01;
+package chapter04.bridge.old.better01;
 
 public interface Color extends Graph {
 

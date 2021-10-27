@@ -1,4 +1,4 @@
-package chapter09.better02;
+package chapter04.bridge.old.better02;
 
 public interface Shape extends Graph {
 

@@ -1,6 +1,6 @@
-package chapter09.better02;
+package chapter04.bridge.old.better01;
 
-public class ColorBlue implements Color {
+public class ColorRed implements Color {
 
     @Override
     public void show() {
