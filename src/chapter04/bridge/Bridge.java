@@ -7,22 +7,31 @@ package chapter04.bridge;
  * Motivation
  * 动机
  *
- *      sometimes a toolkit class that's designed for reuse isn't reuse isn't reusable only because its interface doesn't match the domain-specific interface an application requires
- *      有时工具包提供的类的接口不满足我们使用的接口的声明
+ *      when an abstraction can have one of several possible implementations,
+ *      the usual way to accommodate them is to use inheritance.
+ *      but this approach isn't always flexible enough.
+ *      当一个抽象有多个不同的变化的方向时，通常的处理办法是使用继承去实现。
+ *      但是这种方式并不是非常灵活。
  *
  * Applicability
  * 适用场景
  *
- *      you want to reuse an existing class, ant its interface does not match the one you need
- *      你想使用一个已经存在的类,但是他的接口不满足现在需要
+ *      you want to avoid a permanent binding between an abstraction and its implementation.
+ *      你想避免抽象和实现的仅仅绑定在一起
+ *      both the abstractions and their implementations should be extensible by subclassing.
+ *      不同的抽象和他们的实现可以通过继承的方式进行扩展
+ *      changes in the implementations of an abstraction should have no impact on clients
+ *      实现的改动应该不影响客户端
  *
  *  Consequences
  *  特点
  *
- *      pluggable adapters: a class is more reusable when you minimize the assumptions other class must make to use it
- *      插件适配：类越小越有助于适配
- *      using two-way adapters to provide transparency: class adapter and object adapter
- *      有两种方式提供使用:类适配器和对象适配器
+ *      decoupling interface and implementations.
+ *      抽象和实现的解耦
+ *      improved extensibility
+ *      提高了扩展性
+ *      hiding implementations detail from clients
+ *      向客户端隐藏了实现的细节
  *
  */
 public class Bridge {
