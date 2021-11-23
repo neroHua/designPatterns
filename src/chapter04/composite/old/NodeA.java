@@ -1,6 +1,6 @@
-package chapter11;
+package chapter04.composite.old;
 
-public class NodeB implements NodeComponent {
+public class NodeA implements NodeComponent {
 
     @Override
     public void addNode(NodeComponent node) {
@@ -14,7 +14,7 @@ public class NodeB implements NodeComponent {
 
     @Override
     public void showMyself() {
-        System.out.println("我的类型是：NodeB");
+        System.out.println("我的类型是：NodeA");
     }
 
 }
