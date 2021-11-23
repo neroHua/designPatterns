@@ -1,4 +1,4 @@
-package chapter12;
+package chapter04.decorator.old;
 
 /**
  * 
