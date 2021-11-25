@@ -1,4 +1,4 @@
-package chapter14;
+package chapter04.flyweight.old;
 
 import java.util.HashMap;
 import java.util.Map;
