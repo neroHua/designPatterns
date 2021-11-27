@@ -1,4 +1,4 @@
-package chapter15;
+package chapter04.proxy.old;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

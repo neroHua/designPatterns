@@ -1,4 +1,4 @@
-package chapter15;
+package chapter04.proxy.old;
 
 public class DynamicGoodsA implements DynamicGoods {
     
