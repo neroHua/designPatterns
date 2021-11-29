@@ -1,6 +1,9 @@
 package chapter04;
 
 /**
+ * structure pattern
+ * 结构模式
+ *
  * adapter
  * 适配器模式
  *
