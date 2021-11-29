@@ -1,4 +1,4 @@
-package chapter16;
+package chapter05.chainOfResponsibility.old;
 
 public abstract class AbstractLogger {
 
