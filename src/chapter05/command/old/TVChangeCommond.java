@@ -1,4 +1,4 @@
-package chapter17;
+package chapter05.command.old;
 
 public class TVChangeCommond implements Commond {
 
