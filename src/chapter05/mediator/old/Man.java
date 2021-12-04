@@ -1,4 +1,4 @@
-package chapter20;
+package chapter05.mediator.old;
 
 public class Man extends Human {
     

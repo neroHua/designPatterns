@@ -1,4 +1,4 @@
-package chapter20;
+package chapter05.mediator.old;
 
 import java.util.List;
 
