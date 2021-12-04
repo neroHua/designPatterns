@@ -1,4 +1,4 @@
-package chapter19;
+package chapter05.iterator.old;
 
 public class NameContainer implements Container {
     
