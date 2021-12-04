@@ -1,38 +1,37 @@
 package chapter05.mediator;
 
 /**
- * iterator
- * 迭代器模式
- *
- * Also known as
- * 别称
- *      cursor
- *      迭代器模式
+ * mediator
+ * 中介者模式
  *
  * Intent
  * 意图
- *      provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
- *      提供一种访问对象的容器的方式。这种方式通常是统一的。这种方式访问内部对象时不用暴露容器内部的细节
+ *      define an object that encapsulates how a set of objects interact. interaction vary independently.
+ *      用一个对象封装跟其他对象的交互,这使得交互可以独立变化
  *
  * Applicability
  * 适用场景
  *
- *      to access an aggregate object's contents without exposing its internal representation
- *      方位容器内部对象而不用暴露内部容器内部状态
- *      to provide a uniform interface for traversing different aggregate structures.
- *      统一的方式来访问不同结构的容器
+ *      a set of objects communicate in well-defined but complex ways.
+ *      和其他对象交互比较复杂
+ *      reuse object is difficult because it refers to and communicates with many other objects.
+ *      因为引用和交互对象比较多而导致难以重用
+ *      a behavior that's distributed between several classes should be customizable without a lot of subclassing.
+ *      一个致力于和其他类打交道的功能需要在不需要其他类的情况下自定义化
  *
  *  Consequences
  *  特点
  *
- *      the proxy pattern introduces a level of indirection when accessing an object
- *      代理模式提供了一种间接访问对象的方式
- *      it supports variations in the traversal of an aggregate.
- *      支持各种容器
- *      iterator simply the aggregate interface.
- *      简化了容器接口
- *      more than one traversal can be pending on an aggregate.
- *      容器可以同时进行多个遍历
+ *      it limits subclassing
+ *      改变交互不需要使用继承
+ *      it decouples colleagues
+ *      交互对象解耦
+ *      it simplifies object protocols.
+ *      简化对象的交互
+ *      it abstracts how object cooperate.
+ *      隐藏了对象的交互
+ *      it centralizes control.
+ *      中心化交互
  *
  */
 public class Mediator {
