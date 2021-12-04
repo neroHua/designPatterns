@@ -1,4 +1,4 @@
-package chapter05.interperter;
+package chapter05.interpreter;
 /**
  * interpreter
  * 解释器模式

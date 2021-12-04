@@ -1,4 +1,4 @@
-package chapter05.interperter;
+package chapter05.interpreter;
 
 public interface AbstractExpression {
 

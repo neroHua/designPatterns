@@ -1,4 +1,4 @@
-package chapter05.interperter.old;
+package chapter05.interpreter.old;
 
 /**
  * 
