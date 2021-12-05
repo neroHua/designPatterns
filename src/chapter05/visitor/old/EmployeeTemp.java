@@ -1,7 +1,7 @@
-package chapter27;
+package chapter05.visitor.old;
 
-public class EmployeeFull implements Employee {
-    
+public class EmployeeTemp implements Employee {
+
     int worktime;
     int money;
 

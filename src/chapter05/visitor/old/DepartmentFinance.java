@@ -1,4 +1,4 @@
-package chapter27;
+package chapter05.visitor.old;
 
 public class DepartmentFinance implements Department {
 
