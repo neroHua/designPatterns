@@ -1,4 +1,4 @@
-package chapter21;
+package chapter05.memento.old;
 
 public class Originator {
 
