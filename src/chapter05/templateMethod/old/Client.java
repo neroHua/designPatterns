@@ -1,4 +1,4 @@
-package chapter26;
+package chapter05.templateMethod.old;
 
 /**
  * 
