@@ -1,4 +1,4 @@
-package chapter23;
+package chapter05.state.old;
 
 public class TVOpenState implements State {
 
