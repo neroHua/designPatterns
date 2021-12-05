@@ -54,44 +54,15 @@
     7.proxy
     7.代理模式
 
-# chapter10
+# otherPatterns 
+
     filter/criteria 过滤器/标准模式
-
-# chapter16
-    chain of responsibility 责任链模式
-
-# chapter17
-    command 命令模式
-
-# chapter18
-    interpreter 解释器模式(未实现)
-
-# chapter19
-    iterator 迭代器模式
-
-# chapter20
-    mediator 中介者模式
-
-# chapter21
-    memento 备忘录模式
-
-# chapter22
-    observer 观察者模式
-
-# chapter23
-    state 状态模式
-
-# chapter24
     null object 空对象模式
 
-# chapter25
-    strategy 策略模式
+# generic
+    一种复用代码的方式
 
-# chapter26
-    template 模板模式
+    generic 泛型
 
-# chapter27
-    visitor 访问者模式
-
-# chapter28
-    generic 泛型模式
+# springBeanFactory
+    read spring bean factory
