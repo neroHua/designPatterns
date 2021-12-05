@@ -1,4 +1,4 @@
-package chapter25;
+package chapter05.strategy.old;
 
 /**
  * 
