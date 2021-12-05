@@ -1,4 +1,4 @@
-package chapter22;
+package chapter05.observer.old;
 
 public class ManAgeObserver implements Observer {
     
