@@ -54,10 +54,47 @@
     7.proxy
     7.代理模式
 
-# otherPatterns 
+# chapter05
+    structural pattern
+    行为模式
 
+    1.chain of responsibility
+    1.责任链模式
+
+    2.command
+    2.命令模式
+
+    3.interpreter
+    3.解释器模式
+
+    4.iterator
+    4.迭代器模式
+
+    5.mediator
+    5.中介者模式
+
+    6.memento
+    6.备忘录模式
+
+    7.observer
+    7.观察者模式
+
+    8.state
+    8.状态模式
+
+    9.strategy
+    9.策略模式
+
+    10.template method
+    10.模板方法模式
+
+    11.visitor
+    11.访问者模式
+
+# otherPatterns
     filter/criteria 过滤器/标准模式
     null object 空对象模式
+    producer-consumer 生产者消费者模式(未实现)
 
 # generic
     一种复用代码的方式
